@@ -9,6 +9,7 @@ export const getSubscriberInviteClicksRoute: FastifyPluginAsyncZod =
       {
         schema: {
           summary: 'Get subscriber invite clicks count',
+          operationId: 'getSubscriberLinkAccessCount',
           tags: ['referral'],
           description: 'Route description',
           params: z.object({
